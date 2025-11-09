@@ -8,17 +8,11 @@ pipeline {
 
     stages {
 
-        stage('Checkout Code') {
-            steps {
-                // Fetch the 'main' branch explicitly to avoid branch issues
-                git branch: 'main', url: 'https://github.com/VarshikaAnand/bluegreen'
-            }
-        }
-
         stage('Build Docker Image') {
             steps {
                 sh """
                 echo "🛠️  Building Docker image: $IMAGE"
+                ls -la   # show files to confirm workspace
                 docker build -t $IMAGE:latest ./app
                 """
             }
@@ -27,9 +21,9 @@ pipeline {
         stage('Push to Docker Hub') {
             steps {
                 sh """
-                echo "Logging in to Docker Hub..."
+                echo "🔑 Logging in to Docker Hub..."
                 echo $DOCKER_CREDS_PSW | docker login -u $DOCKER_CREDS_USR --password-stdin
-                echo "Pushing image $IMAGE:latest"
+                echo "📦 Pushing image $IMAGE:latest"
                 docker push $IMAGE:latest
                 """
             }
@@ -38,7 +32,7 @@ pipeline {
         stage('Deploy Blue-Green') {
             steps {
                 sh """
-                echo "Starting Blue-Green deployment..."
+                echo "🚀 Starting Blue-Green deployment..."
                 bash scripts/deploy_blue_green.sh
                 """
             }
@@ -47,10 +41,10 @@ pipeline {
 
     post {
         success {
-            echo 'Deployment successful!'
+            echo '✅ Deployment successful!'
         }
         failure {
-            echo 'Pipeline failed. Check logs for details.'
+            echo '❌ Pipeline failed. Check logs for details.'
         }
     }
 }
