@@ -11,7 +11,7 @@ pipeline {
         stage('Checkout Code') {
             steps {
                 // Fetch the 'main' branch explicitly to avoid branch issues
-                git branch: 'main', url: 'https://github.com/VarshikaAnand/bluegreen.git'
+                git branch: 'main', url: 'https://github.com/VarshikaAnand/bluegreen'
             }
         }
 
