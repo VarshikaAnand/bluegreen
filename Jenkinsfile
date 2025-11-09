@@ -1,14 +1,14 @@
 pipeline {
     agent any
     environment {
-        IMAGE = '<your-dockerhub-username>/bluegreen-dashboard'
+        IMAGE = 'varshika05/bluegreen-dash'
         DOCKER_CREDS = credentials('dockerhub-login')
     }
 
     stages {
         stage('Checkout Code') {
             steps {
-                git 'https://github.com/<your-repo>.git'
+                git 'https://github.com/VarshikaAnand/bluegreen.git'
             }
         }
 
