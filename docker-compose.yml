@@ -1,27 +1,27 @@
-version: "3"
+version: "3.3"
 
 services:
   blue:
-    image: bluegreen-app:latest
-    environment:
-      - APP_VERSION=blue
+    container_name: blue
+    build: .
     ports:
       - "3001:3000"
+    environment:
+      - APP_VERSION=blue
 
   green:
-    image: bluegreen-app:latest
-    environment:
-      - APP_VERSION=green
+    container_name: green
+    build: .
     ports:
       - "3002:3000"
+    environment:
+      - APP_VERSION=green
 
   nginx:
+    container_name: nginx
     image: nginx:latest
     ports:
       - "80:80"
     volumes:
       - ./nginx/nginx.conf:/etc/nginx/nginx.conf
       - ./nginx/upstream_app.conf:/etc/nginx/conf.d/upstream_app.conf
-    depends_on:
-      - blue
-      - green
