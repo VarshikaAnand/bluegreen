@@ -1,7 +1,57 @@
 <?xml version='1.1' encoding='UTF-8'?>
 <flow-definition plugin="workflow-job@1559.va_a_533730b_ea_d">
+  <actions>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobAction plugin="pipeline-model-definition@2.2277.v00573e73ddf1"/>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction plugin="pipeline-model-definition@2.2277.v00573e73ddf1">
+      <jobProperties/>
+      <triggers/>
+      <parameters/>
+      <options/>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction>
+  </actions>
+  <description></description>
   <keepDependencies>false</keepDependencies>
   <properties/>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@4218.vff679a_5c0f3a_">
+    <script>pipeline {
+    agent any
+
+    environment {
+        DOCKERHUB = credentials(&apos;dockerhub&apos;)
+        IMAGE = &quot;varshika05/bluegreen-app:${BUILD_NUMBER}&quot;
+    }
+
+    stages {
+        stage(&apos;Clone Repo&apos;) {
+            steps {
+                git branch: &apos;main&apos;,
+                    url: &apos;https://github.com/VarshikaAnand/bluegreen.git&apos;
+            }
+        }
+
+        stage(&apos;Build Docker Image&apos;) {
+            steps {
+                sh &quot;docker build -t ${IMAGE} .&quot;
+            }
+        }
+
+        stage(&apos;Push Image&apos;) {
+            steps {
+                sh &quot;echo ${DOCKERHUB_PSW} | docker login -u ${DOCKERHUB_USR} --password-stdin&quot;
+                sh &quot;docker push ${IMAGE}&quot;
+            }
+        }
+
+        stage(&apos;Blue-Green Deploy&apos;) {
+            steps {
+                sh &quot;bash scripts/deploy_blue_green.sh ${IMAGE}&quot;
+            }
+        }
+    }
+}
+</script>
+    <sandbox>true</sandbox>
+  </definition>
   <triggers/>
   <disabled>false</disabled>
 </flow-definition>

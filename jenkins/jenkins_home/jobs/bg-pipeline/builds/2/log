@@ -1,0 +1,481 @@
+Started by user unknown or anonymous
+[8mha:////4JssvufE4EeYlBpHXoTlfROIzwDWAS0Fi44fooKk06bzAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4NTPjjG+dLF0EEoMbCqFARB2dc6xOdi4is/RWqSJ8jPZAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4JsmAzXg0wACAh0VO+X7DorWg/9sjvgE4UtMYuDC6FVhAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /var/jenkins_home/workspace/bg-pipeline
+[8mha:////4MItEw4pMKxvSI83QLpGCyaez/ZTzUINdpNb2AXw72dQAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4HS/WBfF5n8Fqdx48uE/WB3BVjQ/oG/57lAlK5ib2AJMAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] withCredentials
+Masking supported pattern matches of $DOCKERHUB or $DOCKERHUB_PSW
+[8mha:////4HLB7TLgUyYP0cU1W9mYzzkQTsmKKWrsqfagu65npWSYAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] {
+[8mha:////4D4rDng5xUgRF4vk71QYH8Dx3I4zmpc/pQYLJIaNnHxoAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] withEnv
+[8mha:////4OQGpXwn1nkOgWRXknnpS8dGMdGQHyxlmA4Qoq6VWJIBAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BAkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfpX/cvwAAAAA==[0m[Pipeline] {
+[8mha:////4Mvt9ETaQ3hzBVDSXHW6IWX/tf1x6815p+kiObAkZLCnAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BSEm1igLJwhJCGmj/9skpZ04EVfjDgQqMWHJkm3Jes8X1CnCkaLjrcXOY9Ke92F0JfGJYncNNPGWLlwTJgqWSztJMva0VEnZwiJWwUrA2qIOlDy6DBvRqrtqgkLXnHMs20FA5c0AD2CikLOK+VvmCNvbaBLhj/MXAHOfge2K959f/QbB16AVwAAAAA==[0m[Pipeline] stage
+[8mha:////4DBaCFo2apHCv77BGySaaLocCZOVQWNRG0nVHDeZs1oeAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDJUJUtJYbXmBiY5xYd8G+kFS8iK/xBwKRqNhqZ6XVPF9Q5gQHSl42DtuAuQ6yi72fmhwotZdIg2zoLGvCTNFJ7QZN1h1n1MQO5ogCFgqWDutIOaBnWKnG3E0VDfrqxGna9gqKYG/wAKEmM5vEXxgTrK+9zYQ/z18BjB2D2DEU283nWL4Bsam+msEAAAA=[0m[Pipeline] { (Clone Repo)
+[8mha:////4GKW/7UqEGtSHwBuEpe4vlxtG1+DfRNVnvvzNgSKk47qAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCakRFa6XhBSYxxo5159gOTsWL+Bp/IBCJii1WO9vM8wXrGODIQaNV1BuKrUHvRj0vzBz6q+OMli/YMkV2ChuVG+7UacGGk4IlRQkrARtFreNoSCfYCivvsnKSdHVOYf4OAkrTDfCAQszmJEP6whRgdxu7yPTz/BXA5BOU9f5TtX8D0loxuL4AAAA=[0m[Pipeline] git
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/bg-pipeline/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/VarshikaAnand/bluegreen.git # timeout=10
+Fetching upstream changes from https://github.com/VarshikaAnand/bluegreen.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.47.3'
+ > git fetch --tags --force --progress -- https://github.com/VarshikaAnand/bluegreen.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision a9489a1a98bc62b849e0a706e7f3d958308e38b8 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f a9489a1a98bc62b849e0a706e7f3d958308e38b8 # timeout=10
+ > git branch -a -v --no-abbrev # timeout=10
+ > git branch -D main # timeout=10
+ > git checkout -b main a9489a1a98bc62b849e0a706e7f3d958308e38b8 # timeout=10
+Commit message: "Initial commit"
+ > git rev-list --no-walk a9489a1a98bc62b849e0a706e7f3d958308e38b8 # timeout=10
+[8mha:////4Ge7lHTujnfporv8oxN87E8Oqg+rTAoU84LGBIXlNGt5AAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICtIgqreWGF5jYGCfWnbEdkooX8TX+QCASFVusdraZ5wuWKcKRo8XWUOcoNQ6D7+20cODYXTwP2PIZG6bE3qA0g2Rt6hklZwNzihIWAlaGGs/Jkc2wFq26q8orstUpx+k7CCidvsEDCjGZs4r5C2OEzbXXienn+SuAMYQM5W7/qe0bsgYiW74AAAA=[0m[Pipeline] }
+[8mha:////4N4qLkElb0kMSIOhl2q2F/fqUiwVdpFhTYIfMPRDqobmAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRokKIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsTZPsP6C1U670AAAA=[0m[Pipeline] // stage
+[8mha:////4EV6q9wk9KJYos/i82KU4+zo5XNukQn+W2jDqpZsEQ2CAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjJAokREVrueEFJjbGiXUX7AtJxYv4Gn8gEImKrXZWWs3zBWVOcKDkZeOwDZjrILvY+6nJgVJ7iTTIhs6yJswUndRu0GTdcUZN7GCOKGChYOmwjpQDeoaVaszdVNGgr06cpm2voAj2Bg8QajKzSfyFMcH62ttM+PP8FcDYMYgdQ7HZfo7lG2c0ocDBAAAA[0m[Pipeline] stage
+[8mha:////4NVs6vkf76jmgbnxxbmvEnV7MTYOVFv8T9xF1mHoR9dDAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSDAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD5WQ+PfCAAAA[0m[Pipeline] { (Build Docker Image)
+[8mha:////4CjqqOILPrJctl6mRy4+RXgacbLiQutrQ8U8okSqY3sAAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCmgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN7LjSKW+AAAA[0m[Pipeline] sh
++ docker build -t varshika05/bluegreen-app:2 .
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 147B 0.1s done
+#1 DONE 0.1s
+
+#2 [internal] load metadata for docker.io/library/node:18
+#2 ...
+
+#3 [auth] library/node:pull token for registry-1.docker.io
+#3 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/node:18
+#2 DONE 4.4s
+
+#4 [internal] load .dockerignore
+#4 transferring context: 2B 0.0s done
+#4 DONE 0.0s
+
+#5 [1/5] FROM docker.io/library/node:18@sha256:c6ae79e38498325db67193d391e6ec1d224d96c693a8a4d943498556716d3783
+#5 resolve docker.io/library/node:18@sha256:c6ae79e38498325db67193d391e6ec1d224d96c693a8a4d943498556716d3783 0.0s done
+#5 DONE 0.0s
+
+#6 [internal] load build context
+#6 transferring context: 29.37MB 5.0s
+#6 transferring context: 52.02MB 10.0s
+#6 transferring context: 62.96MB 15.1s
+#6 transferring context: 78.29MB 20.1s
+#6 transferring context: 156.49MB 25.2s
+#6 transferring context: 169.98MB 30.2s
+#6 transferring context: 176.04MB 35.2s
+#6 transferring context: 177.67MB 40.3s
+#6 transferring context: 177.99MB 42.1s done
+#6 DONE 42.1s
+
+#7 [3/5] COPY package*.json ./
+#7 CACHED
+
+#8 [2/5] WORKDIR /app
+#8 CACHED
+
+#9 [4/5] RUN npm install
+#9 CACHED
+
+#10 [5/5] COPY . .
+#10 DONE 4.1s
+
+#11 exporting to image
+#11 exporting layers
+#11 exporting layers 15.6s done
+#11 exporting manifest sha256:63cbe4668ab29c1708bad8ab9ea04df640413a9700936cef71549d9f1b980f72 0.0s done
+#11 exporting config sha256:e8c91f9dd3ee670debbb1663f92b47909b3ecb2c6a84510648dbbb4d3fa3f5d2 0.0s done
+#11 exporting attestation manifest sha256:d9dfd79547c4b4b9d3352fc5def35acc54eec645a884806a40b084cfb194b566 0.0s done
+#11 exporting manifest list sha256:5c57c2ad8b0a48b63c7fbd6f802a4c250d90a8e858e4d188e9803b6838535abc 0.0s done
+#11 naming to docker.io/varshika05/bluegreen-app:2
+#11 naming to docker.io/varshika05/bluegreen-app:2 done
+#11 unpacking to docker.io/varshika05/bluegreen-app:2
+#11 unpacking to docker.io/varshika05/bluegreen-app:2 4.8s done
+#11 DONE 20.7s
+[8mha:////4Pz3C8xM41bcUZLIC6gXURK5FRrGQ+PyszxxkOprqw6cAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCkSBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQGOY4V7vgAAAA==[0m[Pipeline] }
+[8mha:////4Cbc4Rx9bzayG7Vhyn+5jCZ0Ze6gbGJuOZXG3EyQEQG8AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJAokRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g3N4dT9vgAAAA==[0m[Pipeline] // stage
+[8mha:////4KgshOtoTZWds1Z/U60BASFimFmMhUhLt12s3DhktC7VAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjOhCiorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxJah2Ow+x/INuSc/fMEAAAA=[0m[Pipeline] stage
+[8mha:////4HovHJZ+dsmE3y+t+Qt2Rt3+4/+OvqzNTao0tr+ioNwMAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogU2BDqxBp14QShCSFp9H9JUtKJE3E17kCgEhMeLNuS9Z4vqIKHhrxmVmFvMHSGDW7UObFEvr84SszSmXWEgZxirUotSXWca0tRwayihAWHpcLOUTCoI6y4FXdRO4G6PkWftwOH0sgbPKDgmRyFj98yeVhfRxkIf5y/AJiGCOV2n223+TyrN7xWSV3CAAAA[0m[Pipeline] { (Push Image)
+[8mha:////4HlZCn6MydEiXRRObvp4UPZjTNsnID+nYssupQxfbkC5AAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICtIgqreWGF5jYGCfWnbEdkooX8TX+QCASFVusdraZ5wuWKcKRo8XWUOcoNQ6D7+20cODYXTwP2PIZG6bE3qA0g2Rt6hklZwNzihIWAlaGGs/Jkc2wFq26q8orstUpx+k7CCidvsEDCjGZs4r5C2OEzbXXienn+SuAMWQo99tP7cIbaOP4NL4AAAA=[0m[Pipeline] sh
+Warning: A secret was passed to "sh" using Groovy String interpolation, which is insecure.
+		 Affected argument(s) used the following variable(s): [DOCKERHUB_PSW]
+		 See https://jenkins.io/redirect/groovy-string-interpolation for details.
++ echo ****+ 
+docker login -u varshika05 --password-stdin
+WARNING! Your password will be stored unencrypted in /root/.docker/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+Login Succeeded
+[8mha:////4EtfX40FfvhnPJ/A2aWmdL+MijW62LsSnwJOx9GCpRA0AAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKC0iIqWisNLzCJMXasO8d2cCpexNf4A4FIVGyx2tlmni9YxwBHDhqtot5QbA16N+p5YebQXx1ntHzBlimyU9io3HCnTgs2nBQsKUpYCdgoah1HQzrBVlh5l5WTpKtzCvN3EFCaboAHFGI2JxnSF6YAu9vYRaaf568AJp+grPefqv0bq7DVH74AAAA=[0m[Pipeline] sh
++ docker push varshika05/bluegreen-app:2
+The push refers to repository [docker.io/varshika05/bluegreen-app]
+e67e9352c734: Waiting
+cda7f44f2bdd: Waiting
+79b2f47ad444: Waiting
+4972b128d476: Waiting
+2fdd0451bba0: Waiting
+5cc3aed7cc1b: Waiting
+e23f099911d6: Waiting
+461077a72fb7: Waiting
+112fc4889279: Waiting
+3e6b9d1a9511: Waiting
+37927ed901b1: Waiting
+c6b30c3f1696: Waiting
+3697be50c98b: Waiting
+3e6b9d1a9511: Waiting
+37927ed901b1: Waiting
+c6b30c3f1696: Waiting
+3697be50c98b: Waiting
+e67e9352c734: Waiting
+cda7f44f2bdd: Waiting
+79b2f47ad444: Waiting
+4972b128d476: Waiting
+2fdd0451bba0: Waiting
+5cc3aed7cc1b: Waiting
+e23f099911d6: Waiting
+461077a72fb7: Waiting
+112fc4889279: Waiting
+461077a72fb7: Waiting
+112fc4889279: Waiting
+3e6b9d1a9511: Waiting
+37927ed901b1: Waiting
+c6b30c3f1696: Waiting
+3697be50c98b: Waiting
+e67e9352c734: Waiting
+cda7f44f2bdd: Waiting
+79b2f47ad444: Waiting
+4972b128d476: Waiting
+2fdd0451bba0: Waiting
+5cc3aed7cc1b: Waiting
+e23f099911d6: Waiting
+37927ed901b1: Waiting
+c6b30c3f1696: Waiting
+3697be50c98b: Waiting
+e67e9352c734: Waiting
+cda7f44f2bdd: Waiting
+79b2f47ad444: Waiting
+4972b128d476: Waiting
+2fdd0451bba0: Waiting
+5cc3aed7cc1b: Waiting
+e23f099911d6: Waiting
+461077a72fb7: Waiting
+112fc4889279: Waiting
+3e6b9d1a9511: Waiting
+2fdd0451bba0: Waiting
+5cc3aed7cc1b: Waiting
+e23f099911d6: Waiting
+461077a72fb7: Waiting
+112fc4889279: Waiting
+3e6b9d1a9511: Waiting
+37927ed901b1: Waiting
+c6b30c3f1696: Waiting
+3697be50c98b: Waiting
+e67e9352c734: Waiting
+cda7f44f2bdd: Waiting
+79b2f47ad444: Waiting
+4972b128d476: Waiting
+e23f099911d6: Waiting
+461077a72fb7: Waiting
+112fc4889279: Waiting
+3e6b9d1a9511: Waiting
+37927ed901b1: Waiting
+c6b30c3f1696: Waiting
+3697be50c98b: Waiting
+e67e9352c734: Waiting
+cda7f44f2bdd: Waiting
+79b2f47ad444: Waiting
+4972b128d476: Waiting
+2fdd0451bba0: Waiting
+5cc3aed7cc1b: Waiting
+5cc3aed7cc1b: Waiting
+e23f099911d6: Waiting
+461077a72fb7: Waiting
+112fc4889279: Waiting
+3e6b9d1a9511: Waiting
+37927ed901b1: Waiting
+c6b30c3f1696: Waiting
+3697be50c98b: Waiting
+e67e9352c734: Waiting
+cda7f44f2bdd: Waiting
+79b2f47ad444: Waiting
+4972b128d476: Waiting
+2fdd0451bba0: Waiting
+461077a72fb7: Waiting
+112fc4889279: Waiting
+3e6b9d1a9511: Waiting
+37927ed901b1: Waiting
+c6b30c3f1696: Waiting
+3697be50c98b: Waiting
+e67e9352c734: Waiting
+cda7f44f2bdd: Waiting
+79b2f47ad444: Waiting
+4972b128d476: Waiting
+2fdd0451bba0: Waiting
+5cc3aed7cc1b: Waiting
+e23f099911d6: Waiting
+cda7f44f2bdd: Waiting
+79b2f47ad444: Waiting
+4972b128d476: Waiting
+2fdd0451bba0: Waiting
+5cc3aed7cc1b: Waiting
+e23f099911d6: Waiting
+461077a72fb7: Waiting
+112fc4889279: Waiting
+3e6b9d1a9511: Waiting
+37927ed901b1: Waiting
+c6b30c3f1696: Waiting
+3697be50c98b: Waiting
+e67e9352c734: Waiting
+5cc3aed7cc1b: Waiting
+e23f099911d6: Waiting
+461077a72fb7: Waiting
+112fc4889279: Waiting
+3e6b9d1a9511: Waiting
+37927ed901b1: Waiting
+c6b30c3f1696: Waiting
+3697be50c98b: Waiting
+e67e9352c734: Waiting
+cda7f44f2bdd: Waiting
+79b2f47ad444: Waiting
+4972b128d476: Waiting
+2fdd0451bba0: Waiting
+e23f099911d6: Waiting
+461077a72fb7: Waiting
+112fc4889279: Waiting
+3e6b9d1a9511: Waiting
+37927ed901b1: Waiting
+c6b30c3f1696: Waiting
+3697be50c98b: Waiting
+e67e9352c734: Waiting
+cda7f44f2bdd: Waiting
+79b2f47ad444: Waiting
+4972b128d476: Waiting
+2fdd0451bba0: Waiting
+5cc3aed7cc1b: Waiting
+79b2f47ad444: Waiting
+4972b128d476: Waiting
+2fdd0451bba0: Waiting
+5cc3aed7cc1b: Waiting
+e23f099911d6: Waiting
+461077a72fb7: Waiting
+112fc4889279: Waiting
+3e6b9d1a9511: Waiting
+37927ed901b1: Waiting
+c6b30c3f1696: Waiting
+3697be50c98b: Waiting
+e67e9352c734: Waiting
+cda7f44f2bdd: Waiting
+2fdd0451bba0: Waiting
+5cc3aed7cc1b: Waiting
+e23f099911d6: Waiting
+461077a72fb7: Waiting
+112fc4889279: Waiting
+3e6b9d1a9511: Waiting
+37927ed901b1: Waiting
+c6b30c3f1696: Waiting
+3697be50c98b: Waiting
+e67e9352c734: Waiting
+cda7f44f2bdd: Waiting
+79b2f47ad444: Waiting
+4972b128d476: Waiting
+37927ed901b1: Waiting
+c6b30c3f1696: Waiting
+3697be50c98b: Waiting
+e67e9352c734: Waiting
+cda7f44f2bdd: Waiting
+79b2f47ad444: Waiting
+4972b128d476: Waiting
+2fdd0451bba0: Waiting
+5cc3aed7cc1b: Waiting
+e23f099911d6: Waiting
+461077a72fb7: Waiting
+112fc4889279: Waiting
+3e6b9d1a9511: Waiting
+37927ed901b1: Waiting
+c6b30c3f1696: Waiting
+3697be50c98b: Waiting
+e67e9352c734: Waiting
+cda7f44f2bdd: Waiting
+79b2f47ad444: Waiting
+4972b128d476: Waiting
+2fdd0451bba0: Waiting
+5cc3aed7cc1b: Waiting
+e23f099911d6: Waiting
+461077a72fb7: Waiting
+112fc4889279: Waiting
+3e6b9d1a9511: Waiting
+37927ed901b1: Waiting
+c6b30c3f1696: Waiting
+3697be50c98b: Waiting
+e67e9352c734: Waiting
+cda7f44f2bdd: Waiting
+79b2f47ad444: Waiting
+4972b128d476: Waiting
+2fdd0451bba0: Waiting
+5cc3aed7cc1b: Waiting
+e23f099911d6: Waiting
+461077a72fb7: Waiting
+112fc4889279: Waiting
+3e6b9d1a9511: Waiting
+461077a72fb7: Waiting
+112fc4889279: Waiting
+3e6b9d1a9511: Waiting
+37927ed901b1: Waiting
+c6b30c3f1696: Waiting
+3697be50c98b: Waiting
+e67e9352c734: Waiting
+cda7f44f2bdd: Waiting
+79b2f47ad444: Waiting
+4972b128d476: Waiting
+2fdd0451bba0: Waiting
+5cc3aed7cc1b: Waiting
+e23f099911d6: Waiting
+461077a72fb7: Waiting
+112fc4889279: Waiting
+3e6b9d1a9511: Waiting
+37927ed901b1: Waiting
+c6b30c3f1696: Waiting
+3697be50c98b: Waiting
+e67e9352c734: Waiting
+cda7f44f2bdd: Waiting
+79b2f47ad444: Waiting
+4972b128d476: Waiting
+2fdd0451bba0: Waiting
+5cc3aed7cc1b: Waiting
+e23f099911d6: Waiting
+5cc3aed7cc1b: Waiting
+e23f099911d6: Waiting
+461077a72fb7: Waiting
+112fc4889279: Waiting
+3e6b9d1a9511: Waiting
+37927ed901b1: Waiting
+c6b30c3f1696: Waiting
+3697be50c98b: Waiting
+e67e9352c734: Waiting
+cda7f44f2bdd: Waiting
+79b2f47ad444: Waiting
+4972b128d476: Waiting
+2fdd0451bba0: Waiting
+5cc3aed7cc1b: Waiting
+e23f099911d6: Waiting
+461077a72fb7: Waiting
+112fc4889279: Waiting
+3e6b9d1a9511: Waiting
+37927ed901b1: Waiting
+c6b30c3f1696: Waiting
+3697be50c98b: Waiting
+e67e9352c734: Waiting
+cda7f44f2bdd: Waiting
+79b2f47ad444: Waiting
+4972b128d476: Waiting
+2fdd0451bba0: Waiting
+79b2f47ad444: Waiting
+4972b128d476: Waiting
+2fdd0451bba0: Waiting
+5cc3aed7cc1b: Waiting
+e23f099911d6: Waiting
+461077a72fb7: Waiting
+112fc4889279: Layer already exists
+3e6b9d1a9511: Waiting
+37927ed901b1: Waiting
+c6b30c3f1696: Waiting
+3697be50c98b: Waiting
+e67e9352c734: Waiting
+cda7f44f2bdd: Waiting
+79b2f47ad444: Waiting
+4972b128d476: Waiting
+2fdd0451bba0: Waiting
+5cc3aed7cc1b: Waiting
+e23f099911d6: Waiting
+461077a72fb7: Waiting
+3e6b9d1a9511: Waiting
+37927ed901b1: Waiting
+c6b30c3f1696: Waiting
+3697be50c98b: Waiting
+e67e9352c734: Waiting
+cda7f44f2bdd: Waiting
+461077a72fb7: Waiting
+3e6b9d1a9511: Waiting
+37927ed901b1: Waiting
+c6b30c3f1696: Waiting
+3697be50c98b: Waiting
+e67e9352c734: Waiting
+cda7f44f2bdd: Layer already exists
+79b2f47ad444: Waiting
+4972b128d476: Waiting
+2fdd0451bba0: Waiting
+5cc3aed7cc1b: Waiting
+e23f099911d6: Layer already exists
+3e6b9d1a9511: Waiting
+37927ed901b1: Waiting
+c6b30c3f1696: Waiting
+3697be50c98b: Waiting
+e67e9352c734: Waiting
+79b2f47ad444: Waiting
+4972b128d476: Waiting
+2fdd0451bba0: Waiting
+5cc3aed7cc1b: Waiting
+461077a72fb7: Waiting
+79b2f47ad444: Waiting
+4972b128d476: Waiting
+2fdd0451bba0: Waiting
+5cc3aed7cc1b: Waiting
+461077a72fb7: Waiting
+3e6b9d1a9511: Waiting
+37927ed901b1: Waiting
+c6b30c3f1696: Waiting
+3697be50c98b: Waiting
+e67e9352c734: Waiting
+461077a72fb7: Layer already exists
+3e6b9d1a9511: Layer already exists
+37927ed901b1: Layer already exists
+c6b30c3f1696: Layer already exists
+3697be50c98b: Layer already exists
+e67e9352c734: Waiting
+79b2f47ad444: Layer already exists
+4972b128d476: Layer already exists
+2fdd0451bba0: Layer already exists
+5cc3aed7cc1b: Waiting
+5cc3aed7cc1b: Waiting
+5cc3aed7cc1b: Waiting
+5cc3aed7cc1b: Waiting
+e67e9352c734: Pushed
+5cc3aed7cc1b: Pushed
+2: digest: sha256:5c57c2ad8b0a48b63c7fbd6f802a4c250d90a8e858e4d188e9803b6838535abc size: 856
+[8mha:////4JB3AXoXYF+NvJMoKT3ACcawdzBHzJvYpXnOjRR4i283AAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCoERUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFkKHf7T23fSZy7ir4AAAA=[0m[Pipeline] }
+[8mha:////4Mzztnk4rsAiTERkeQBouxdOTUXOnFmigom/CG9C+w7MAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEA1CqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw+WR0/FvgAAAA==[0m[Pipeline] // stage
+[8mha:////4LKFLvwc3G/zCvKKzCYre9ufrEGRAXBlKpinrs0Bu6y1AAAApx+LCAAAAAAAAP9tjUEKwjAQRSeVLty69BApCIIgrtyGbDxBbGJMG2ZqMrVdeSKv5h2sFlz5V/99+LznC8qc4EDJy8ZhGzDXQXax91OTA6X2EmmQDZ1lTZgpOqndoMm644ya2MEcUcBCwdJhHSkH9Awr1Zi7qaJBX504TdteQRHsDR4g1GRmk/gLY4L1tbeZ8Of5K4CxYxA7hmKz/RzLN1/9FTrBAAAA[0m[Pipeline] stage
+[8mha:////4BDujLybaYL/2+iMx5MoT7F7qP/H56jhbVsRGM8AfbDNAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQoIFMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfACW9ZT2wgAAAA==[0m[Pipeline] { (Blue-Green Deploy)
+[8mha:////4PkpjQdkG8OvfGTmt9sI+f8YcHJuMZJHV0MOhbA44SMcAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUUCBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAHUcXIBvgAAAA==[0m[Pipeline] sh
++ bash scripts/deploy_blue_green.sh varshika05/bluegreen-app:2
+Pulling image...
+2: Pulling from varshika05/bluegreen-app
+Digest: sha256:5c57c2ad8b0a48b63c7fbd6f802a4c250d90a8e858e4d188e9803b6838535abc
+Status: Image is up to date for varshika05/bluegreen-app:2
+docker.io/varshika05/bluegreen-app:2
+Updating Blue or Green...
+Deploying to green...
+time="2025-11-16T17:44:43Z" level=warning msg="/var/jenkins_home/workspace/bg-pipeline/docker-compose.yml: `version` is obsolete"
+time="2025-11-16T17:44:43Z" level=warning msg="/var/jenkins_home/workspace/bg-pipeline/docker-compose.yml: `version` is obsolete"
+No stopped containers
+time="2025-11-16T17:44:43Z" level=warning msg="/var/jenkins_home/workspace/bg-pipeline/docker-compose.yml: `version` is obsolete"
+ Network bg-pipeline_default  Creating
+ Network bg-pipeline_default  Created
+ Container bg-pipeline-green-1  Creating
+ Container bg-pipeline-green-1  Created
+ Container bg-pipeline-green-1  Starting
+Error response from daemon: failed to set up container networking: driver failed programming external connectivity on endpoint bg-pipeline-green-1 (ae7ba54682869b12de8428f097ef784f2cb94f10e8b9b21bf331e207738d5ad5): Bind for 0.0.0.0:3002 failed: port is already allocated
+[8mha:////4DhBguhe8r7Gxl1SncqKEeMGMqIG0PQ5P6j2pN0aAHCKAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUSAkRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g2/yR8JvgAAAA==[0m[Pipeline] }
+[8mha:////4HRfzalmdnDkTBc8X8F0RlzmRf9IystEuFa/60sCo1zSAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIVEgRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g2gS0pbvgAAAA==[0m[Pipeline] // stage
+[8mha:////4EaCRkJzGxwp/z3xSWbj/jtEWhEl34WOUPiwVor1zhbWAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJBokFCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5LutINt/AKXGO5a9AAAA[0m[Pipeline] }
+[8mha:////4O5iqsRrwJj+QhqROItGzQa/WvJ7OyrWZQjLA87l/gR6AAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRoqBAVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5LutINt/AITy5Du9AAAA[0m[Pipeline] // withEnv
+[8mha:////4F0BmYL2CnC28yGxLMkWmx7HkRI1n16N5CfYOzE5q3pwAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRQKJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5LutINt/AMK4Qwu9AAAA[0m[Pipeline] }
+[8mha:////4KPTY+hTtv/VLPpk4Io13AkDMBpO5f4EW2tydC0KKJnpAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIUjJVjZZuh8QQRYgxkdjFZhMoTeTXvICMzVv7qv9e81xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0gL0tBtv8AyMAqr70AAAA=[0m[Pipeline] // withCredentials
+[8mha:////4LNSWa7FWWGFMHanmR2ifupEPkvzENS0j2z+KPSoTCpZAAAAoh+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIU0jlWthkaTxAhxkBmF5NFqDyRV/MOMjJj5a/+e817vbFOEUeOTrWWOk+p9qoPg5ufGjl218CjavmiaqbEwarKjhU39rRgxWKxLMux0thYqgMnT06w1a15mCIYcsVZ4uwOGrlv7ngi03NZTJQvTBG729Akpl/nbwBT3wvyfSnIyg9OLA1qvQAAAA==[0m[Pipeline] }
+[8mha:////4EltG1sl+HwR8pURIPVJG8ZJO7Pw7b2h97Fk34umMfGbAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIUjJVjZZuh8QQRYgxkdjFZhMoTeTXvICMzVv7qv9e81xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0gL/eCrPwAXZAJyb0AAAA=[0m[Pipeline] // node
+[8mha:////4Dm8SAVCHWITtc8zPG9qOFP1koOGX1xQcNFiqZYDLR6wAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRQKJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Lu9INt+ABvarvm9AAAA[0m[Pipeline] End of Pipeline
+ERROR: script returned exit code 1
+Finished: FAILURE

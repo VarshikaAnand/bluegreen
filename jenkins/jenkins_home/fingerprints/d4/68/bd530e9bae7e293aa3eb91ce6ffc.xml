@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2025-11-16 17:31:51.557 UTC</timestamp>
+  <md5sum>d468bd530e9bae7e293aa3eb91ce6ffc</md5sum>
+  <fileName>Credential id=dockerhub name=varshika05/******</fileName>
+  <usages>
+    <entry>
+      <string>bg-pipeline</string>
+      <ranges>1-3</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>
