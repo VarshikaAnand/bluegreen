@@ -3,6 +3,7 @@
 set -e
 
 IMAGE=$1
+COMPOSE="/var/jenkins_home/workspace/bg-pipeline/docker-compose.yml"
 
 echo "Pulling image..."
 docker pull $IMAGE
@@ -17,10 +18,10 @@ else
 fi
 
 echo "Deploying to $TARGET..."
-docker compose stop $TARGET
-docker compose rm -f $TARGET
 
-docker compose up -d $TARGET
+docker compose -f $COMPOSE stop $TARGET || true
+docker compose -f $COMPOSE rm -f $TARGET || true
+docker compose -f $COMPOSE up -d $TARGET
 
 echo "Reloading Nginx..."
 docker exec $(docker ps --filter "name=nginx" -q) nginx -s reload
